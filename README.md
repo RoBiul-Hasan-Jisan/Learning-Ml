@@ -1,54 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NumPy Notes</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 20px;
-      padding: 20px;
-      color: #333;
-      line-height: 1.6;
-    }
-    h1, h2 {
-      color: #007acc;
-    }
-    .check {
-      color: green;
-      font-weight: bold;
-    }
-    .note {
-      background-color: #fff;
-      border-left: 6px solid #007acc;
-      padding: 10px 20px;
-      margin-bottom: 20px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      background: #fff;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    }
-    th, td {
-      padding: 12px;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
-    th {
-      background-color: #007acc;
-      color: white;
-    }
-    .highlight {
-      color: #007acc;
-      font-weight: bold;
-    }
-  </style>
-</head>
-<body>
 
   <h1>📘 NumPy Quick Notes</h1>
 
@@ -109,5 +58,4 @@
     </table>
   </div>
 
-</body>
-</html>
+
