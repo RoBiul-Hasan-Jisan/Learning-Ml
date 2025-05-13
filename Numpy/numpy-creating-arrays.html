@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NumPy - Creating Arrays</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 20px;
+    }
+    h1 {
+      color: #007acc;
+    }
+    .section {
+      background-color: #ffffff;
+      border-left: 6px solid #007acc;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    }
+    pre {
+      background: #272822;
+      color: #f8f8f2;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    code {
+      font-family: 'Courier New', monospace;
+    }
+    .check {
+      color: green;
+      font-weight: bold;
+    }
+    .output {
+      background: #e9f7ef;
+      border-left: 4px solid #2ecc71;
+      padding: 10px;
+      font-family: monospace;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>✅ NumPy: Creating Arrays</h1>
+
+  <div class="section">
+    <p><span class="check">✅ Example 1:</span> Creating an array using a Python list</p>
+    <pre><code>import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+
+print(arr)
+print(type(arr))</code></pre>
+    <div class="output">
+      [1 2 3 4 5] <br>
+      &lt;class 'numpy.ndarray'&gt;
+    </div>
+  </div>
+
+  <div class="section">
+    <p><span class="check">✅ Example 2:</span> Creating an array using a Python tuple</p>
+    <pre><code>import numpy as np
+
+arr = np.array((1, 2, 3, 4, 5))
+
+print(arr)</code></pre>
+    <div class="output">
+      [1 2 3 4 5]
+    </div>
+  </div>
+
+</body>
+</html>
